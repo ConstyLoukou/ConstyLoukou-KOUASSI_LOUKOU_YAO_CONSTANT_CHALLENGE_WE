@@ -1,0 +1,459 @@
+/* partie Consty css */
+
+/*partie1*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.header{
+    background-color: #F2EFEF;
+    height: 95vh;
+    justify-content: space-between;
+}
+
+.nav-link{
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 40px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    font-size: 16px;
+    /*margin-left: px;*/
+    font-weight: bold;
+}
+.home{
+    color: #41b883;
+}
+
+a img{
+    height: 35px;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+
+.header_button{
+    width: 150px;
+    height: 50px;
+    background-color: #41b883;
+    color: #fff;
+    margin-right: 200px;
+    border-radius:8px;
+    border: none;
+}
+.conteneur2_div_header{
+    display: flex;
+    flex-wrap: wrap;
+background-color: #F2EFEF;
+}
+
+.tiret_conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tiret_text{
+    width: 150px;
+    height: 25px;
+    margin-top: -10px;
+    
+}
+
+.tiret{
+    width: 60px;
+    height: 1.5px;  
+    background-color: #41b883;
+
+}
+
+.header_div_gauche{
+    width: 30%;
+background-color: #F2EFEF;
+margin-left: 200px;
+margin-top: 40px;
+padding-left: 15px;
+
+}
+
+@media screen and (max-width:810px) {
+    .header_div_gauche{
+        width: 100%;
+    
+background-color: #F2EFEF;       
+    }
+
+    .header_div_droite{
+        width: 100%;
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: #F2EFEF;
+    }
+}
+
+.header_div_droite{
+    width: 450px;
+    height: 595px; 
+    margin-top: 40px;
+padding-left: 15px;
+;
+}
+
+.header_div_gauche_h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #41b883;
+}
+
+.header_div_gauche_h6{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #41b883;
+}
+
+.header_button_div_gauche{
+    width: 200px;
+    height: 60px;
+    background-color: #41b883;
+    color: #fff;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: none;
+}
+
+.header_img1{
+    margin-left: 240px;
+    margin-top: 90px;
+}
+
+
+.header_img2{
+    margin-left: 150px;
+    margin-top: 180px;
+}
+
+.header_img3{
+    margin-left: 230px;
+    margin-top: -570px;
+}
+
+.header_img4{
+    margin-left: 650px;
+    margin-top: -800px;
+}
+/*fin.....................*/
+
+                                  /* debut de la partie 2 section1*/
+
+.section1{
+    display: ;
+}
+
+.div_conteneur_section1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:300px) {
+   
+    .div_conteneur_section1{
+       display: block;
+       margin: auto;
+    } 
+    
+.section1_img1{
+    margin:auto;
+    display: block;
+}
+    }
+
+.section1_img1{
+    margin-left: 150px;
+    
+}
+
+.section1_text{
+    justify-content: space-between;
+
+}
+.text_h2{
+   
+    text-align: center;
+}
+
+.text_h6{
+    margin-top: 100px;
+    text-align: center;
+    color: #41b883;
+}
+
+.text_p{
+    text-align: center;
+}
+
+.conteneur_page2_col{
+display: flex;
+flex-wrap: wrap;
+margin-top: 100px;
+margin-left: 200px;
+
+}
+
+
+.conteneur_page2_col1{
+width: 350px;
+height: 600px;
+background-color: #ffff;
+/*margin-left: 150px;*/
+margin-right: 10px;
+border-radius: 25px 25px 25px 25px;
+border: 0px solid none;
+}
+
+@media screen and (max-width:300px) {
+    .conteneur_page2_col{
+        display: block;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 200px;
+        
+        }
+        
+
+    .conteneur_page2_col1{
+        width: 100%;
+        height: auto;
+        background-color: #ffff;
+        /*margin-left: 150px;*/
+        
+        border-radius: 25px 25px 25px 25px;
+        border: 0px solid none;
+        }
+        .conteneur_page2_col1{
+            width: auto;
+            height: auto;
+            background-color: #ffff;
+            /*margin-left: 150px;*/
+            
+            border-radius: auto;
+            border: 0px solid none;
+            display: block;
+            }
+            
+            .conteneur_page2_col{
+                display: block;
+                flex-wrap: wrap;
+                margin-top: auto;
+                margin-left: auto;
+                
+                }
+                
+}
+
+.conteneur_page2_col1:hover{
+    width: 350px;
+    height: 600px;
+    background-color: #fff;
+    /*margin-left: 150px;*/
+    margin-right: 10px;
+    border-radius: 25px 25px 25px 25px;
+    /*border: 5px solid #F5F7FA;*/
+    box-shadow: 0 0 14px gray;
+}
+
+.conteneur_page2_col img{
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.conteneur_page2_col_p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteneur_page2_col_h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page2_button{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #000000;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: center;
+    border: none;
+
+}
+
+.page2_button:hover{            /*button de la page2*/
+    width: 150px;
+    height: 60px;
+    background-color: #585858;
+    color: #fff;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: center;
+}
+
+/*finnnn........*/
+
+/*debuuuut de la partie3 ou page3*/
+
+.div_conteneur_page3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 92vh;
+    background-color: #41b883;
+    margin-top: 100px;
+}
+
+.div_gauche_page3{
+    width: 700px;
+    height: 500px;
+    padding-left: 200px;
+    padding-top: 100px;
+    
+}
+
+@media screen and (max-width:810px) {
+    .div_gauche_page3{
+        width: 1500px;
+        height: auto;
+      margin-right: -100px;
+      background-color: #41b883;  
+    }
+
+    .div_droite_page3{
+        width: 80%;
+        height: auto;
+        margin-right: -248px;
+        background-color: #41b883;
+}
+
+/*.div_droite_page3{
+    width: 818px;
+    height: 500px;
+    padding-top: 100px;
+    background-color: #41b883;*/
+}
+
+.page3_h6{
+color: #fff;
+font-size: 20px;
+}
+
+.page3_h1{
+    color: #fff; 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.page3_p{
+    color: #fff; 
+     
+}
+
+.page3_button{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #41b883;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    float: left;
+    border: none;
+}
+
+.page3_button:hover{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #41b883;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+
+.div_gauche_page3_imag{
+    height: 200px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    padding-bottom: ;
+    
+}
+
+.div_bas_page3{
+    width: 100px;
+    height: 100px;
+    margin-top: -170px;
+    margin-left: 10px;
+}
+
+.div_droite_page3_imag{
+    
+    
+    margin-left: 300px;
+    padding-top: 100px;
+    
+}  
+
+.tiret_conteneur_page3{
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 20px;
+    margin-bottom: 10px;*/
+}
+
+.tiret_text_page3{
+    width: 500px;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: -12px;
+    
+}
+
+.tiret_page3{
+    width: 60px;
+    height: 2px; 
+    margin-right: 10px; 
+    background-color: #fff;
+    display: flex;
+
+}
+
+/*finnnnnnn................*/
+
+/* fin partie consty css 
+
+
+section.first .first_right .tiret 
+*/
+
+
+/* partie Abdoul Matini css */
+
+
+/* fin partie Abdoul matini css */
+
+
+
+/* partie Koffi css */
+
+/* fin partie Koffi css */ 
